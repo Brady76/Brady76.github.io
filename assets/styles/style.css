@@ -1,0 +1,25 @@
+body{
+    background-image:url(../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main_card{
+    width: 100%;
+    display: block;
+}
+
+.main_div{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
