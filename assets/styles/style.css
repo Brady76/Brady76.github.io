@@ -14,38 +14,32 @@ body{
 
 .contact_ul{
     list-style-type:none;
-    text-align: center;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    position: relative;
-    display: block;
-    left: 42.5%;
+    display: inline-block;
 }
 
 .contact_card{
     width: 100%;
     height: 50px;
     background-color: black;
+    text-align: center;
 }
 
 .contact_li{
     float:left;
-    position:relative;
-    display:block;
 }
 
 .contact_a{
-    display: block;
+    display: inline-block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
 }
 
 .contact_a:hover{
-    background-color: darkgray;
+    background-color: #9BAEB2;
 }
 
 .main_div{
