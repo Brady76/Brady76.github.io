@@ -20,28 +20,52 @@ var ContextDiv = React.createClass({
     },
     
     render:function(){
-        return(
-        <div>
-            <div className="context_card">
-                    <ul className="context_ul">
-                        <li className="context_li">
-                            <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
-                                Work Experience
-                            </a>
-                        </li>
-                        <li className="contact_li">
-                            <a className="context_a context_a_hover arvo" onClick={this.educationChange}>
-                                Education
-                            </a>
-                        </li>
-                    </ul>
-            </div>
-            <div>
-                <MainDiv viewState={this.state.viewState}/>
-            </div>
-        </div>
-            
-        );
+        if(this.state.viewState=="work_experience"){
+            return(
+                <div>
+                    <div className="context_card">
+                            <ul className="context_ul">
+                                <li className="context_li">
+                                    <a className="context_a selected context_a_hover arvo" onClick={this.workChange}> 
+                                        Work Experience
+                                    </a>
+                                </li>
+                                <li className="contact_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.educationChange}>
+                                        Education
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div>
+                        <MainDiv viewState={this.state.viewState}/>
+                    </div>
+                </div>
+            );
+        }
+        else if(this.state.viewState=="education"){
+             return(
+                <div>
+                    <div className="context_card">
+                            <ul className="context_ul">
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                        Work Experience
+                                    </a>
+                                </li>
+                                <li className="contact_li">
+                                    <a className="context_a selected context_a_hover arvo" onClick={this.educationChange}>
+                                        Education
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div>
+                        <MainDiv viewState={this.state.viewState}/>
+                    </div>
+                </div>
+            );           
+        }
     }    
 });
 

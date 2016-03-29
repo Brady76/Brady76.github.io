@@ -72,6 +72,10 @@ body{
     background-color: #DCF9FD;
 }
 
+.selected{
+    background-color: #DCF9FD;
+}
+
 .main_div{
     margin-left: 50px;
     margin-right: 50px;
