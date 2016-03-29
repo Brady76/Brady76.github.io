@@ -35,6 +35,11 @@ var MainDiv = React.createClass({
                                Tech Stack: React.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
                            </span>
                        </li>
+                       <li className="mdl-list__item">
+                           <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/scq">
+                               Repository           
+                           </a>
+                       </li>
                    </ul>
                </div>
                <div className="mdl-card__title title">
@@ -46,17 +51,7 @@ var MainDiv = React.createClass({
                     <ul className="mdl-list">
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Reshelved returned books/documents 
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Coordinated with other schools to obtain books/documents we didn't have
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Tech support when required
+                               Reshelving, tech support, coordinating with other schools to obtain books & documents we didn't have
                            </span>
                        </li>
                    </ul>                  
@@ -70,17 +65,7 @@ var MainDiv = React.createClass({
                     <ul className="mdl-list">
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Maintain customer satisfaction
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Worked under constant pressure as my scheduled hours fell during rush hours
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Excellent team cohesion required
+                               Food prep, cashier, dish washing, inventory, customer service
                            </span>
                        </li>
                    </ul>                  
@@ -91,6 +76,34 @@ var MainDiv = React.createClass({
    } 
 });
 
+/*
+Do I really want to be this specific?
+Wendy's
+                       <li className="mdl-list__item">
+                           <span className="mdl-list__item-primary-content arvo">
+                               Maintain customer satisfaction
+                           </span>
+                       </li>
+                       <li className="mdl-list__item">
+                           <span className="mdl-list__item-primary-content arvo">
+                               Worked high pressure rush hours to fit school schedule
+                           </span>
+                       </li>
+
+Library
+
+                       <li className="mdl-list__item">
+                           <span className="mdl-list__item-primary-content arvo">
+                               Coordinated with other schools to obtain books/documents we didn't have
+                           </span>
+                       </li>
+                       <li className="mdl-list__item">
+                           <span className="mdl-list__item-primary-content arvo">
+                               Tech support when required
+                           </span>
+                       </li>
+
+*/
 ReactDOM.render(
     <MainDiv />,
     document.getElementById('react_div')
