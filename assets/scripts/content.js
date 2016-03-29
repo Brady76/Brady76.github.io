@@ -15,27 +15,27 @@ var MainDiv = React.createClass({
                </div>
                <div className="mdl-card__title title">
                    <h3 className="mdl-card__title-text arvo">
-                       Crew Member, Wendy's | Thornton, CO | June 2012 – May 2013
+                       Head Architect, SFII | Boulder, CO | August 2015 – Current
                    </h3>
                </div>
                <div className="mdl-card__supporting-text">
-                    <ul className="mdl-list">
+                   <ul className="mdl-list">
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Maintain customer satisfaction
+                               Front end development team, back end liaison, documentation quality control
                            </span>
                        </li>
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Worked under constant pressure as my scheduled hours fell during rush hours
+                               Created a website where you create surveys and propagate them to user created groups
                            </span>
                        </li>
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Excellent team cohesion required
+                               Tech Stack: React.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
                            </span>
                        </li>
-                   </ul>                  
+                   </ul>
                </div>
                <div className="mdl-card__title title">
                    <h3 className="mdl-card__title-text arvo">
@@ -63,27 +63,27 @@ var MainDiv = React.createClass({
                </div>
                <div className="mdl-card__title title">
                    <h3 className="mdl-card__title-text arvo">
-                       Head Architect, SFII | Boulder, CO | August 2015 – Current
+                       Crew Member, Wendy's | Thornton, CO | June 2012 – May 2013
                    </h3>
                </div>
                <div className="mdl-card__supporting-text">
-                   <ul className="mdl-list">
+                    <ul className="mdl-list">
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Front end development team, back end liaison, documentation quality control
+                               Maintain customer satisfaction
                            </span>
                        </li>
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Created a website where you create surveys and propagate them to user created groups
+                               Worked under constant pressure as my scheduled hours fell during rush hours
                            </span>
                        </li>
                        <li className="mdl-list__item">
                            <span className="mdl-list__item-primary-content arvo">
-                               Tech Stack: React.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
+                               Excellent team cohesion required
                            </span>
                        </li>
-                   </ul>
+                   </ul>                  
                </div>
            </div>
        </div>
