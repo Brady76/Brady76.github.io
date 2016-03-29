@@ -1,25 +1,76 @@
 body{
-    background-image:url(../images/background.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-color:#FDEDDD;
 }
 
-.main_card{
+.name_card{
     width: 100%;
     display: block;
+    background-color: #B2A199;
+}
+
+.name{
+    margin:0;
+}
+
+.contact_ul{
+    list-style-type:none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    left: 42.5%;
+}
+
+.contact_card{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.contact_li{
+    float:left;
+    position:relative;
+    display:block;
+}
+
+.contact_a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.contact_a:hover{
+    background-color: darkgray;
 }
 
 .main_div{
-    background-color: white;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 50px;
     padding: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+}
+
+.work_experience{
+    width: 100%;
 }
 
 h1{
     text-align: center;
+}
+
+.title{
+    background-color: #DCF9FD;
+}
+
+.title2{
+    background-color: #9BAEB2;
+}
+
+.arvo{
+    font-family: 'Arvo', serif;
 }
