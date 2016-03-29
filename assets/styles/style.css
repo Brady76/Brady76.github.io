@@ -19,6 +19,13 @@ body{
     display: inline-block;
 }
 
+.context_ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
 .contact_card{
     width: 100%;
     height: 50px;
@@ -26,7 +33,18 @@ body{
     text-align: center;
 }
 
+.context_card{
+    width: 100%;
+    height: 50px;
+    background-color: #9BAEB2;
+    text-align: center;
+}
+
 .contact_li{
+    float:left;
+}
+
+.context_li{
     float:left;
 }
 
@@ -38,8 +56,20 @@ body{
     font-size: 25px;
 }
 
+.context_a{
+    display: inline-block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
 .contact_a_hover:hover{
-    background-color: #9BAEB2;
+    background-color: #DCF9FD;
+}
+
+.context_a_hover:hover{
+    background-color: #DCF9FD;
 }
 
 .main_div{
@@ -49,7 +79,12 @@ body{
     padding: 10px;
 }
 
+/*width of work experience cards*/
 .work_experience{
+    width: 100%;
+}
+
+.education{
     width: 100%;
 }
 
@@ -57,12 +92,12 @@ h1{
     text-align: center;
 }
 
-.title{
-    background-color: #DCF9FD;
+.section_title{
+    background-color: #9BAEB2;
 }
 
-.title2{
-    background-color: #9BAEB2;
+.subsection_title{
+    background-color: #DCF9FD;
 }
 
 .arvo{
