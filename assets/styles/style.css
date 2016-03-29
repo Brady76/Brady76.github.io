@@ -38,7 +38,7 @@ body{
     font-size: 25px;
 }
 
-.contact_a:hover{
+.contact_a_hover:hover{
     background-color: #9BAEB2;
 }
 
@@ -67,4 +67,8 @@ h1{
 
 .arvo{
     font-family: 'Arvo', serif;
+}
+
+.icon{
+    margin-left: 5px;
 }
