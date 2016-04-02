@@ -197,6 +197,16 @@ var MainDiv = React.createClass({
                                        Type Speed Game <i className="fa fa-github icon"></i> 
                                    </a>
                                </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/OptimusPrime">
+                                       Controllable Optimus Prime <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://youtu.be/PmffAuR5bmc">
+                                       Optimus Prime Demo Video <i className="fa fa-youtube-play icon"></i> 
+                                   </a>
+                               </li>
                            </ul>
                        </div>
                    </div>
