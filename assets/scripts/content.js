@@ -19,6 +19,12 @@ var ContextDiv = React.createClass({
         });    
     },
     
+    projectsChange: function(){
+        this.setState({
+            viewState: "projects_and_skills"
+        });    
+    },
+    
     render:function(){
         if(this.state.viewState=="work_experience"){
             return(
@@ -30,9 +36,14 @@ var ContextDiv = React.createClass({
                                         Work Experience
                                     </a>
                                 </li>
-                                <li className="contact_li">
+                                <li className="context_li">
                                     <a className="context_a context_a_hover arvo" onClick={this.educationChange}>
                                         Education
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.projectsChange}>
+                                        Projects & Skills
                                     </a>
                                 </li>
                             </ul>
@@ -44,7 +55,7 @@ var ContextDiv = React.createClass({
             );
         }
         else if(this.state.viewState=="education"){
-             return(
+            return(
                 <div>
                     <div className="context_card">
                             <ul className="context_ul">
@@ -53,9 +64,14 @@ var ContextDiv = React.createClass({
                                         Work Experience
                                     </a>
                                 </li>
-                                <li className="contact_li">
+                                <li className="context_li">
                                     <a className="context_a selected context_a_hover arvo" onClick={this.educationChange}>
                                         Education
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.projectsChange}>
+                                        Projects & Skills
                                     </a>
                                 </li>
                             </ul>
@@ -64,7 +80,35 @@ var ContextDiv = React.createClass({
                         <MainDiv viewState={this.state.viewState}/>
                     </div>
                 </div>
-            );           
+            );
+        }
+        else if(this.state.viewState=="projects_and_skills"){
+            return(
+                <div>
+                    <div className="context_card">
+                            <ul className="context_ul">
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                        Work Experience
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.educationChange}>
+                                        Education
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a selected context_a_hover arvo" onClick={this.projectsChange}>
+                                        Projects & Skills
+                                    </a>
+                                </li>
+                            </ul>
+                    </div>
+                    <div>
+                        <MainDiv viewState={this.state.viewState}/>
+                    </div>
+                </div>
+            );
         }
     }    
 });
@@ -180,42 +224,13 @@ var MainDiv = React.createClass({
                                </li>
                            </ul>
                        </div>
-                       <div className="mdl-card__title subsection_title">
-                           <h3 className="mdl-card__title-text arvo">
-                               Relevant & Interesting Projects  
-                           </h3>
-                       </div>
-                       <div className="mdl-card__supporting-text">
-                           <ul className="mdl-list">
-                               <li className="mdl-list__item">
-                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/ConcurrentProgramming">
-                                       Concurrent Matrix Solver <i className="fa fa-github icon"></i> 
-                                   </a>
-                               </li>
-                               <li className="mdl-list__item">
-                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/TypeSpeedGame">
-                                       Type Speed Game <i className="fa fa-github icon"></i> 
-                                   </a>
-                               </li>
-                               <li className="mdl-list__item">
-                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/OptimusPrime">
-                                       Controllable Optimus Prime <i className="fa fa-github icon"></i> 
-                                   </a>
-                               </li>
-                               <li className="mdl-list__item">
-                                   <a className="mdl-list__item-primary-content arvo" href="https://youtu.be/PmffAuR5bmc">
-                                       Optimus Prime Demo Video <i className="fa fa-youtube-play icon"></i> 
-                                   </a>
-                               </li>
-                           </ul>
-                       </div>
                    </div>
                </div>
            );
        }
        else if(this.props.viewState=="projects_and_skills"){
            return(
-<div className="mdl-grid main_div">
+                <div className="mdl-grid main_div">
                    <div className="mdl-card education mdl-shadow--2dp">
                        <div className="mdl-card__title section_title">
                            <h3 className="mdl-card__title-text arvo">
@@ -264,9 +279,27 @@ var MainDiv = React.createClass({
                                    </a>
                                </li>
                                <li className="mdl-list__item">
+                                   <div className="mdl-list__item-primary-content arvo">
+                                       Campus Consensus was the main project I worked on while working with SFII for my senior capstone.
+                                       It's my largest undertaking to date and I was the greatest contributor to the front end, it's 
+                                       purpose is to create a system for creating and taking surveys related to the school and to visualize 
+                                       that data in order to replace or augment a class/instructor review system deemed inefficient by many.
+                                       I created a lot of basic handler functionality for additional pages past what our boilerplate had provided
+                                       as well as most of the front end functionality, most impressively making the survey creation and response 
+                                       cards using react and material design. 
+                                   </div>
+                               </li>
+                               <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/cufcq-new">
                                        CUFCQ <i className="fa fa-github icon"></i> 
                                    </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <div>
+                                       CUFCQ was a side project I was invited to by other members of SFII focused on taking the school's current
+                                       class/instructor review systems data and visualizing it and organizing it in a way that students and staff 
+                                       would find helpful.  So far I've helped provide several key pages as well as improved on the handlers.
+                                   </div>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/ConcurrentProgramming">
