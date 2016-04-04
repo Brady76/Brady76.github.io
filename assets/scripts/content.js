@@ -25,6 +25,12 @@ var ContextDiv = React.createClass({
         });    
     },
     
+    resumeChange: function(){
+        this.setState({
+           viewState: "resume" 
+        });
+    },
+    
     render:function(){
         if(this.state.viewState=="work_experience"){
             return(
@@ -46,6 +52,11 @@ var ContextDiv = React.createClass({
                                         Projects & Skills
                                     </a>
                                 </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
+                                        Resume
+                                    </a>
+                                </li> 
                             </ul>
                     </div>
                     <div>
@@ -74,6 +85,11 @@ var ContextDiv = React.createClass({
                                         Projects & Skills
                                     </a>
                                 </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
+                                        Resume
+                                    </a>
+                                </li> 
                             </ul>
                     </div>
                     <div>
@@ -102,12 +118,50 @@ var ContextDiv = React.createClass({
                                         Projects & Skills
                                     </a>
                                 </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
+                                        Resume
+                                    </a>
+                                </li> 
                             </ul>
                     </div>
                     <div>
                         <MainDiv viewState={this.state.viewState}/>
                     </div>
                 </div>
+            );
+        }
+        else if(this.state.viewState=="resume"){
+            return(
+                <div>
+                    <div className="context_card">
+                            <ul className="context_ul">
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                        Work Experience
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.educationChange}>
+                                        Education
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a context_a_hover arvo" onClick={this.projectsChange}>
+                                        Projects & Skills
+                                    </a>
+                                </li>
+                                <li className="context_li">
+                                    <a className="context_a selected context_a_hover arvo" onClick={this.resumeChange}>
+                                        Resume
+                                    </a>
+                                </li> 
+                            </ul>
+                    </div>
+                    <div>
+                        <MainDiv viewState={this.state.viewState}/>
+                    </div>
+                </div>            
             );
         }
     }    
@@ -231,7 +285,7 @@ var MainDiv = React.createClass({
        else if(this.props.viewState=="projects_and_skills"){
            return(
                 <div className="mdl-grid main_div">
-                   <div className="mdl-card education mdl-shadow--2dp">
+                   <div className="mdl-card projects_and_skills mdl-shadow--2dp">
                        <div className="mdl-card__title section_title">
                            <h3 className="mdl-card__title-text arvo">
                                Projects and Skills
@@ -325,6 +379,29 @@ var MainDiv = React.createClass({
                        </div>
                    </div>
                </div>               
+           );
+       }
+       else if(this.props.viewState=="resume"){
+           return(
+                <div className="mdl-grid main_div">
+                   <div className="mdl-card resume mdl-shadow--2dp">
+                       <div className="mdl-card__title section_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Resume
+                           </h3>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Download
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                           <a className="mdl-list__item-primary-content arvo" href="../resume/Resume.docx" download>
+                               Download Link 
+                           </a>
+                       </div>
+                   </div>
+               </div> 
            );
        }
    
