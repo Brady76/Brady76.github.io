@@ -396,7 +396,7 @@ var MainDiv = React.createClass({
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
-                           <a className="mdl-list__item-primary-content arvo" href="../resume/Resume.docx" download>
+                           <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.docx" download>
                                Download Link 
                            </a>
                        </div>
