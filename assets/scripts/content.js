@@ -182,7 +182,7 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Relevant & Interesting School Projects  
+                               Relevant & Interesting Projects  
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
@@ -213,6 +213,87 @@ var MainDiv = React.createClass({
                </div>
            );
        }
+       else if(this.props.viewState=="projects_and_skills"){
+           return(
+<div className="mdl-grid main_div">
+                   <div className="mdl-card education mdl-shadow--2dp">
+                       <div className="mdl-card__title section_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Projects and Skills
+                           </h3>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Skills
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                           <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Proficient in C, C++, Java, Python, Tornado, HTML, CSS, Javascript, React.js, and OpenGL
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Can work in Unix/Linux environment as well as Windows
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Proficient project lead
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Quality customer service
+                                   </span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Relevant & Interesting Projects  
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                           <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/scq">
+                                       Campus Consensus <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/cufcq-new">
+                                       CUFCQ <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/ConcurrentProgramming">
+                                       Concurrent Matrix Solver <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/TypeSpeedGame">
+                                       Type Speed Game <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/OptimusPrime">
+                                       Controllable Optimus Prime <i className="fa fa-github icon"></i> 
+                                   </a>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="https://youtu.be/PmffAuR5bmc">
+                                       Optimus Prime Demo Video <i className="fa fa-youtube-play icon"></i> 
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>               
+           );
+       }
    
    } 
 });
@@ -221,32 +302,3 @@ ReactDOM.render(
     <ContextDiv />,
     document.getElementById('context_switch')
 );
-
-/*
-Do I really want to be this specific?
-Wendy's
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Maintain customer satisfaction
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Worked high pressure rush hours to fit school schedule
-                           </span>
-                       </li>
-
-Library
-
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Coordinated with other schools to obtain books/documents we didn't have
-                           </span>
-                       </li>
-                       <li className="mdl-list__item">
-                           <span className="mdl-list__item-primary-content arvo">
-                               Tech support when required
-                           </span>
-                       </li>
-
-*/
