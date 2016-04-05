@@ -278,6 +278,75 @@ var MainDiv = React.createClass({
                                </li>
                            </ul>
                        </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Relevant Courses Taken  
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                           <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI2270 Data Structures
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI2824 Discrete Structures
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3104 Algorithms
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3155 Principles of Programming Languages
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3202 Intro to Artificial Intelligence
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3287 Database Info Systems
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3308 Software Engineering Methods and Tools
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3656 Numerical Computation
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI3753 Operating Systems
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI4229 Computer Graphics
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI4448 Object Oriented Analysis & Design
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       CSCI4830 Concurrent Programming
+                                   </span>
+                               </li>
+                           </ul>
+                       </div>
                    </div>
                </div>
            );
@@ -387,18 +456,38 @@ var MainDiv = React.createClass({
                    <div className="mdl-card resume mdl-shadow--2dp">
                        <div className="mdl-card__title section_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Resume
+                               Employment
                            </h3>
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Download
+                               Resume Download
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
-                           <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.docx" download>
-                               Download Link 
-                           </a>
+                           <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.docx" download>
+                                       Download Link 
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Employment Status
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                           <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   I'm looking for an entry level position after I graduate!
+                               </li>
+                               <li className="mdl-list__item">
+                                   I'm currently working at CU's Norlin Library and also with SFII for the duration of my
+                                   senior project/capstone, but both of those will be both be done come graduation in May.
+                               </li>
+                           </ul>
                        </div>
                    </div>
                </div> 
