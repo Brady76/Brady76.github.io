@@ -198,7 +198,7 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Tech Stack: React.js, Chartist.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
+                                       Tech Stack: React.js, Chartist.js, HTML, Javascript, CSS, Gulp.js, Nginx, Tornado, RethinkDB
                                    </span>
                                </li>
                                <li className="mdl-list__item">
