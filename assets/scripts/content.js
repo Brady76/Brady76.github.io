@@ -198,7 +198,7 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Tech Stack: React.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
+                                       Tech Stack: React.js, Chartist.js, HTML, Javascript, CSS, Gulp, Nginx, Tornado, RethinkDB
                                    </span>
                                </li>
                                <li className="mdl-list__item">
@@ -369,7 +369,7 @@ var MainDiv = React.createClass({
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Proficient in C, C++, Java, Python, Tornado, HTML, CSS, Javascript, React.js, and OpenGL
+                                       Proficient in/with C, C++, Java, Python, Tornado, HTML, CSS, Javascript, React.js, reQL, Chartist.js, and OpenGL
                                    </span>
                                </li>
                                <li className="mdl-list__item">
@@ -403,13 +403,11 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <div className="mdl-list__item-primary-content arvo">
-                                       Campus Consensus was the main project I worked on while working with SFII for my senior capstone.
-                                       It's my largest undertaking to date and I was the greatest contributor to the front end, it's 
-                                       purpose is to create a system for creating and taking surveys related to the school and to visualize 
-                                       that data in order to replace or augment a class/instructor review system deemed inefficient by many.
-                                       I created a lot of basic handler functionality for additional pages past what our boilerplate had provided
-                                       as well as most of the front end functionality, most impressively making the survey creation and response 
-                                       cards using react and material design. 
+                                       Campus Consensus is a website looking to augment or replace CU's Student Course Questionnaire with user created
+                                       groups and surveys and the visualization of response data from those surveys. 
+                                       I was the head of the front end team with the biggest hand in creating most of the core functionality on the front end, 
+                                       namely: user support, survey creation, survey taking, and survey data visualization. On the back end I helped construct
+                                       some of the reQL (rethinkDB) queries and wrote some of the handlers for pages I created. 
                                    </div>
                                </li>
                                <li className="mdl-list__item">
@@ -419,9 +417,8 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <div>
-                                       CUFCQ was a side project I was invited to by other members of SFII focused on taking the school's current
-                                       class/instructor review systems data and visualizing it and organizing it in a way that students and staff 
-                                       would find helpful.  So far I've helped provide several key pages as well as improved on the handlers.
+                                       CUFCQ is a website looking to aggregate and visualize Faculty Course Questionnaire and past 
+                                       grade data from CU Boulder. I designed several pages and fixed and cleaned up page handlers.
                                    </div>
                                </li>
                                <li className="mdl-list__item">
