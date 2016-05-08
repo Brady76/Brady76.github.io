@@ -181,7 +181,7 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Head Architect, SFII | Boulder, CO | August 2015 – Current
+                               Head Architect, SFII | Boulder, CO | August 2015 – May 2016
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
@@ -210,7 +210,7 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Librarian, Norlin Library | Boulder, CO | June 2014 – Current 
+                               Librarian, Norlin Library | Boulder, CO | June 2014 – May 2016
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
@@ -268,7 +268,7 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Anticipated: May 2016
+                                       Graduated: May 2016
                                    </span>
                                </li>
                                <li className="mdl-list__item">
@@ -464,7 +464,7 @@ var MainDiv = React.createClass({
                        <div className="mdl-card__supporting-text">
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
-                                   <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.docx" download>
+                                   <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.pdf" download>
                                        Download Link 
                                    </a>
                                </li>
@@ -478,11 +478,10 @@ var MainDiv = React.createClass({
                        <div className="mdl-card__supporting-text">
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
-                                   I'm looking for an entry level position after I graduate!
+                                   Looking for an entry level position or otherwise in web development or software engineering
                                </li>
                                <li className="mdl-list__item">
-                                   I'm currently working at CU's Norlin Library and also with SFII for the duration of my
-                                   senior project/capstone, but both of those will be both be done come graduation in May.
+                                   I've just graduated from CU Boulder and am no longer working for SFII or the Norlin Library.
                                </li>
                            </ul>
                        </div>
