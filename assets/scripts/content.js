@@ -241,16 +241,19 @@ var MainDiv = React.createClass({
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
                                        Write Spark applications for Physical Therapy clinic analytics
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
                                        Write Java UDFs for Vertica analytics
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
                                        Write Javascript for Analytica
                                    </span>
                                </li>
                            </ul>
-                       </div>
-                       <div className="mdl-card__title subsection_title">
-                           <h3 className="mdl-card__title-text arvo">
-                               Librarian, Norlin Library | Boulder, CO | June 2014 – May 2016
-                           </h3>
                        </div>
                    </div>
                </div>
