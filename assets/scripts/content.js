@@ -222,6 +222,15 @@ var MainDiv = React.createClass({
                                </li>
                            </ul>
                        </div>
+                       <div className="mdl-card__supporting-text">
+                            <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Reshelving, tech support, coordinating with other schools to obtain books & documents we didn't have
+                                   </span>
+                               </li>
+                           </ul>
+                       </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
                                Data Developer, WebPT | Thornton, CO | July 2016 – Current
@@ -242,15 +251,6 @@ var MainDiv = React.createClass({
                            <h3 className="mdl-card__title-text arvo">
                                Librarian, Norlin Library | Boulder, CO | June 2014 – May 2016
                            </h3>
-                       </div>
-                       <div className="mdl-card__supporting-text">
-                            <ul className="mdl-list">
-                               <li className="mdl-list__item">
-                                   <span className="mdl-list__item-primary-content arvo">
-                                       Reshelving, tech support, coordinating with other schools to obtain books & documents we didn't have
-                                   </span>
-                               </li>
-                           </ul>
                        </div>
                    </div>
                </div>
