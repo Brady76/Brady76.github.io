@@ -181,6 +181,30 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
+                               Data Developer, WebPT | Thornton, CO | July 2016 – Current
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                            <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Write Spark applications for Physical Therapy clinic analytics
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Write Java UDFs for Vertica analytics
+                                   </span>
+                               </li>
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Write Javascript for Analytica
+                                   </span>
+                               </li>
+                           </ul>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
                                Head Architect, SFII | Boulder, CO | August 2015 – May 2016
                            </h3>
                        </div>
@@ -224,24 +248,14 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Data Developer, WebPT | Thornton, CO | July 2016 – Current
+                               Crew Member, Wendy's | Thornton, CO | June 2012 – May 2013
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
                             <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Write Spark applications for Physical Therapy clinic analytics
-                                   </span>
-                               </li>
-                               <li className="mdl-list__item">
-                                   <span className="mdl-list__item-primary-content arvo">
-                                       Write Java UDFs for Vertica analytics
-                                   </span>
-                               </li>
-                               <li className="mdl-list__item">
-                                   <span className="mdl-list__item-primary-content arvo">
-                                       Write Javascript for Analytica
+                                       Food prep, cashier, dish washing, inventory, customer service
                                    </span>
                                </li>
                            </ul>
@@ -475,7 +489,7 @@ var MainDiv = React.createClass({
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.pdf" download>
-                                       Download Link (Not Current since working at WebPT)
+                                       Download Link (Currently not updated)
                                    </a>
                                </li>
                            </ul>
@@ -488,7 +502,7 @@ var MainDiv = React.createClass({
                        <div className="mdl-card__supporting-text">
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
-                                   Currently working as a Data Developer for WebPT in Broomfield
+                                   Currently working as a Data Developer for WebPT
                                </li>
                            </ul>
                        </div>
