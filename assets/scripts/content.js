@@ -1,36 +1,36 @@
 var ContextDiv = React.createClass({
-    
+
     getInitialState: function(){
         return{
-            viewState: "work_experience"    
-    
+            viewState: "work_experience"
+
         }
     },
-    
+
     workChange: function(){
         this.setState({
-           viewState: "work_experience" 
-        });    
+           viewState: "work_experience"
+        });
     },
-    
+
     educationChange: function(){
         this.setState({
-            viewState: "education"    
-        });    
+            viewState: "education"
+        });
     },
-    
+
     projectsChange: function(){
         this.setState({
             viewState: "projects_and_skills"
-        });    
-    },
-    
-    resumeChange: function(){
-        this.setState({
-           viewState: "resume" 
         });
     },
-    
+
+    resumeChange: function(){
+        this.setState({
+           viewState: "resume"
+        });
+    },
+
     render:function(){
         if(this.state.viewState=="work_experience"){
             return(
@@ -38,7 +38,7 @@ var ContextDiv = React.createClass({
                     <div className="context_card">
                             <ul className="context_ul">
                                 <li className="context_li">
-                                    <a className="context_a selected context_a_hover arvo" onClick={this.workChange}> 
+                                    <a className="context_a selected context_a_hover arvo" onClick={this.workChange}>
                                         Work Experience
                                     </a>
                                 </li>
@@ -56,7 +56,7 @@ var ContextDiv = React.createClass({
                                     <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
                                         Resume
                                     </a>
-                                </li> 
+                                </li>
                             </ul>
                     </div>
                     <div>
@@ -71,7 +71,7 @@ var ContextDiv = React.createClass({
                     <div className="context_card">
                             <ul className="context_ul">
                                 <li className="context_li">
-                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}>
                                         Work Experience
                                     </a>
                                 </li>
@@ -89,7 +89,7 @@ var ContextDiv = React.createClass({
                                     <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
                                         Resume
                                     </a>
-                                </li> 
+                                </li>
                             </ul>
                     </div>
                     <div>
@@ -104,7 +104,7 @@ var ContextDiv = React.createClass({
                     <div className="context_card">
                             <ul className="context_ul">
                                 <li className="context_li">
-                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}>
                                         Work Experience
                                     </a>
                                 </li>
@@ -122,7 +122,7 @@ var ContextDiv = React.createClass({
                                     <a className="context_a context_a_hover arvo" onClick={this.resumeChange}>
                                         Resume
                                     </a>
-                                </li> 
+                                </li>
                             </ul>
                     </div>
                     <div>
@@ -137,7 +137,7 @@ var ContextDiv = React.createClass({
                     <div className="context_card">
                             <ul className="context_ul">
                                 <li className="context_li">
-                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}> 
+                                    <a className="context_a context_a_hover arvo" onClick={this.workChange}>
                                         Work Experience
                                     </a>
                                 </li>
@@ -155,20 +155,20 @@ var ContextDiv = React.createClass({
                                     <a className="context_a selected context_a_hover arvo" onClick={this.resumeChange}>
                                         Resume
                                     </a>
-                                </li> 
+                                </li>
                             </ul>
                     </div>
                     <div>
                         <MainDiv viewState={this.state.viewState}/>
                     </div>
-                </div>            
+                </div>
             );
         }
-    }    
+    }
 });
 
 var MainDiv = React.createClass({
-       
+
    render:function(){
        if(this.props.viewState == "work_experience"){
            return(
@@ -203,7 +203,7 @@ var MainDiv = React.createClass({
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/scq">
-                                       Repository <i className="fa fa-github icon"></i>           
+                                       Repository <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                            </ul>
@@ -220,21 +220,37 @@ var MainDiv = React.createClass({
                                        Reshelving, tech support, coordinating with other schools to obtain books & documents we didn't have
                                    </span>
                                </li>
-                           </ul>                  
+                           </ul>
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Crew Member, Wendy's | Thornton, CO | June 2012 – May 2013
+                               Data Developer, WebPT | Thornton, CO | July 2016 – Current
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
                             <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <span className="mdl-list__item-primary-content arvo">
-                                       Food prep, cashier, dish washing, inventory, customer service
+                                       Write Spark applications for Physical Therapy clinic analytics
+                                       Write Java UDFs for Vertica analytics
+                                       Write Javascript for Analytica
                                    </span>
                                </li>
-                           </ul>                  
+                           </ul>
+                       </div>
+                       <div className="mdl-card__title subsection_title">
+                           <h3 className="mdl-card__title-text arvo">
+                               Librarian, Norlin Library | Boulder, CO | June 2014 – May 2016
+                           </h3>
+                       </div>
+                       <div className="mdl-card__supporting-text">
+                            <ul className="mdl-list">
+                               <li className="mdl-list__item">
+                                   <span className="mdl-list__item-primary-content arvo">
+                                       Reshelving, tech support, coordinating with other schools to obtain books & documents we didn't have
+                                   </span>
+                               </li>
+                           </ul>
                        </div>
                    </div>
                </div>
@@ -280,7 +296,7 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Relevant Courses Taken  
+                               Relevant Courses Taken
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
@@ -391,60 +407,60 @@ var MainDiv = React.createClass({
                        </div>
                        <div className="mdl-card__title subsection_title">
                            <h3 className="mdl-card__title-text arvo">
-                               Relevant & Interesting Projects  
+                               Relevant & Interesting Projects
                            </h3>
                        </div>
                        <div className="mdl-card__supporting-text">
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/scq">
-                                       Campus Consensus <i className="fa fa-github icon"></i> 
+                                       Campus Consensus <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                                <li className="mdl-list__item">
                                    <div className="mdl-list__item-primary-content arvo">
                                        Campus Consensus is a website looking to augment or replace CU's Student Course Questionnaire with user created
-                                       groups and surveys and the visualization of response data from those surveys. 
-                                       I was the head of the front end team with the biggest hand in creating most of the core functionality on the front end, 
+                                       groups and surveys and the visualization of response data from those surveys.
+                                       I was the head of the front end team with the biggest hand in creating most of the core functionality on the front end,
                                        namely: user support, survey creation, survey taking, and survey data visualization. On the back end I helped construct
-                                       some of the reQL (rethinkDB) queries and wrote some of the handlers for pages I created. 
+                                       some of the reQL (rethinkDB) queries and wrote some of the handlers for pages I created.
                                    </div>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/SFII/cufcq-new">
-                                       CUFCQ <i className="fa fa-github icon"></i> 
+                                       CUFCQ <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                                <li className="mdl-list__item">
                                    <div>
-                                       CUFCQ is a website looking to aggregate and visualize Faculty Course Questionnaire and past 
+                                       CUFCQ is a website looking to aggregate and visualize Faculty Course Questionnaire and past
                                        grade data from CU Boulder. I designed several pages and fixed and cleaned up page handlers.
                                    </div>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/ConcurrentProgramming">
-                                       Concurrent Matrix Solver <i className="fa fa-github icon"></i> 
+                                       Concurrent Matrix Solver <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/TypeSpeedGame">
-                                       Type Speed Game <i className="fa fa-github icon"></i> 
+                                       Type Speed Game <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://github.com/Bradyta/OptimusPrime">
-                                       Controllable Optimus Prime <i className="fa fa-github icon"></i> 
+                                       Controllable Optimus Prime <i className="fa fa-github icon"></i>
                                    </a>
                                </li>
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="https://youtu.be/PmffAuR5bmc">
-                                       Optimus Prime Demo Video <i className="fa fa-youtube-play icon"></i> 
+                                       Optimus Prime Demo Video <i className="fa fa-youtube-play icon"></i>
                                    </a>
                                </li>
                            </ul>
                        </div>
                    </div>
-               </div>               
+               </div>
            );
        }
        else if(this.props.viewState=="resume"){
@@ -465,7 +481,7 @@ var MainDiv = React.createClass({
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
                                    <a className="mdl-list__item-primary-content arvo" href="assets/resume/Resume.pdf" download>
-                                       Download Link 
+                                       Download Link (Not Current since working at WebPT)
                                    </a>
                                </li>
                            </ul>
@@ -478,21 +494,18 @@ var MainDiv = React.createClass({
                        <div className="mdl-card__supporting-text">
                            <ul className="mdl-list">
                                <li className="mdl-list__item">
-                                   Looking for an entry level position or otherwise in web development or software engineering
-                               </li>
-                               <li className="mdl-list__item">
-                                   I've just graduated from CU Boulder and am no longer working for SFII or the Norlin Library.
+                                   Currently working as a Data Developer for WebPT in Broomfield
                                </li>
                            </ul>
                        </div>
                    </div>
-               </div> 
+               </div>
            );
        }
-   
-   } 
+
+   }
 });
-                        
+
 ReactDOM.render(
     <ContextDiv />,
     document.getElementById('context_switch')
